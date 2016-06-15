@@ -1,0 +1,713 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, p, a {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #a9c9fc;
+}
+
+
+	
+	
+	#wrapper{
+width: 96%;
+margin: 2% 2%;
+
+
+background-color: #a9c9fc;
+text-align: left;
+
+position: relative;
+}
+
+.logoPic  {
+	height: 114px;
+	
+
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+
+	
+}
+
+
+#comLogo  {
+height: 114px;
+width: 210px;
+min-width: 210px;
+display: block;
+
+float: none;
+margin: 0;
+background: url('cl_logo2_210.jpg') no-repeat;
+
+
+
+}
+
+.mich_star1  {
+	display: none;
+}
+
+.mich_star2  {
+	display: block;
+	height: 114px;
+	width: 132px;
+	float: left;
+	margin-top: 10px;
+	background: url('mich_star_132.png') no-repeat;
+}
+
+
+
+
+
+#comLogoY  {
+height: 114px;
+width: 96px;
+min-width: 96px;
+display: block;
+float: none;
+margin: 0;
+background: url('yogananda_114.jpg') no-repeat;
+
+
+
+}
+
+#comLogoY img {
+	border: 1px solid black;
+	opacity: .7;
+}
+
+
+
+
+	#quote {
+
+ 
+position: relative;
+
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+
+
+  font-size: .88em;
+  width: 96%;
+  margin: 0 2%;
+  height: 100%;
+  float: none;
+  
+  border-bottom: 2px solid black;
+  margin-top: 15px;
+
+
+    /*height: 52px;
+      width: 250px;
+    display: block;
+    float: left;
+  */
+
+
+
+    
+    color: rgba(0, 0, 0, .8);
+
+}
+
+
+.quoteR  {
+    display: block;
+    float: right;
+    width: 132px;
+    height: 114px;
+    
+}
+
+
+
+.clear  {
+	
+	clear: both;
+}
+
+
+
+.active  {
+	height: 300px;
+	width: 300px;
+	/* padding: 50px 0  0 30px; */
+	background: url('banner1m.jpg') bottom left no-repeat;
+	clear:both;
+	
+	
+}
+
+
+
+
+
+
+.c2  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner2m.jpg') bottom left no-repeat;	
+}
+
+
+
+.c3  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner3m.jpg') bottom left no-repeat;
+}
+
+
+
+.c4  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner4m.jpg') bottom left no-repeat;
+}
+
+
+
+.c5  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner5m.jpg') bottom left no-repeat;
+}
+
+
+
+.c6  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner6m.jpg') bottom left no-repeat;
+}
+
+
+
+.c7  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner7m.jpg') bottom left no-repeat;
+}
+
+
+ #slideshow {
+    position:relative;
+    height:300px;
+    width: 300px;
+    margin: 30px auto;
+    border: solid 2px black;
+
+    float: none;
+}
+
+#slideshow DIV {
+    position:absolute;
+    padding-bottom: 0;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 300px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 300px;
+    display: block;
+    border: 0;
+   
+}
+
+
+
+
+
+
+.mainText  {
+width: 96%;
+height: 100%;
+font-size: 1.05em;
+line-height: 140%;
+display: block;
+float: none;
+margin: 0 2%;
+padding: 0;
+
+}
+
+.mainText p  {
+margin: 0 0 10px 0;	
+	
+}
+
+#slidingDiv {
+	/*height:300px; */
+	height: 100%;
+
+	border-bottom:2px solid black;
+	display:none;
+}
+
+
+
+
+
+
+
+			.video1  {
+	
+	padding-bottom: calc(75% * .96);
+	width: 96%;
+	min-width: 250px;
+	margin: 4% 2%;
+	float: none;
+	position: relative;
+  
+}
+
+
+
+
+
+
+
+
+
+	.video2  {
+	
+	padding-bottom: calc(56.25% * .96);
+	width: 96%;
+	min-width: 250px;
+	margin: 4% 2%;
+	float: none;
+	position: relative;
+  
+}
+
+	
+
+
+
+
+
+
+
+
+.video3 {
+	
+	padding-bottom: calc(56.25% * .96);
+	width: 96%;
+	min-width: 250px;
+	margin: 4% 2%;
+	float: none;
+	position: relative;
+  
+}
+
+.video4  {
+	display:none;
+}
+
+
+.video1 iframe, .video2 iframe, .video3 iframe, .video4 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.video1 p, .video2 p, .video3 p  {
+	display: none;
+}
+
+
+
+
+
+
+#nav1  {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav2  {
+	position: static;
+	width: 100%;
+	margin: 20px 0;
+	display:block;
+	float: none;
+	
+	
+}
+
+#nav2 ul, #nav2 ul ul  {
+	
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav2 ul li a  {
+	
+	display: block;
+	width: 80%;
+	padding: 5px 8px;
+	margin: 8px auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: .9em;
+	color: white;
+	background-color: #751d20;
+	border: 3px solid rgba(255,255,255,.25);
+}
+
+#nav2 ul li:hover > ul  {    
+	display: block;
+}
+
+
+
+
+
+#nav2 ul ul li a  {
+	width: 60%;
+	margin-left: 25%;
+	margin-right: 15%;
+}
+
+#nav2 ul li a:hover { background-color: #af380e;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#copyright {
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	height: 15px;
+	width: 100%;
+	margin: 15px 0 0 0;
+	float: none;
+	clear: both;
+	
+	}
+	
+
+
+
+
+@media screen and (min-width: 520px)   {
+    
+    
+    
+    
+    .quoteR  {
+    display: block;
+    float: none;
+    width: auto;
+    height: auto;
+    
+}
+	
+	
+	
+	
+	
+	#nav2  {
+	
+	   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+	
+
+	
+		#nav1  {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			background-color: rgba(0,0,0,.6);
+			font-size: .7em;
+			padding: 0;
+			width: 70%;
+			margin: 0 auto;
+		}
+
+a  {
+	color: #00a2ff;
+	text-decoration: none;
+}
+
+
+#nav1 ul  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+	
+#nav1 ul::after  {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#nav1 ul li:hover  {
+	background-color: rgba(0,102,102,.8);
+	
+}
+
+#nav1 ul li:hover > ul {
+	display: block;
+	
+}
+
+#nav1 ul li a  {
+	display: inline-block;
+	color: #fff;
+	padding: 8px 6px;
+	text-decoration: none;
+	width: 125px;
+	
+}
+
+#nav1 ul li a:hover  {
+background-color: #339999;
+	
+}
+
+#nav1 ul ul  {
+	display: none;
+	position: absolute;
+	top: 100%;
+	background-color: rgba(0,102,102,.8);
+	z-index: 12;
+}
+
+#nav1 ul ul li  {
+	position: relative;
+	
+}
+
+/* top level */
+
+#nav1 > ul  {
+	
+	padding-left: 0;
+	
+}
+
+#nav1 > ul > li  {
+	
+	float: left;
+}
+
+#nav1 > ul > li > a  {
+	padding:8px 10px;
+	width: auto;
+	
+}
+
+#quote {
+	margin-bottom: 20px;
+	
+}
+
+.mich_star1  {
+	display: block;
+	height: 114px;
+width: 185px;
+	
+	background: url('mich_star_185.png') no-repeat;
+}
+
+.mich_star2 {
+	display: none;
+}
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+@media screen and (min-width: 630px)    {
+	
+	
+	
+	
+	
+	
+	
+	
+				.video1  {
+					display: none;
+	
+	/*padding-bottom: calc(75% * .96);
+	width: 96%;
+	min-width: 250px;
+	margin: 4% 2%;
+	float: none;
+	position: relative; */
+  
+}
+
+
+
+
+
+
+
+
+
+	.video2  {
+	width: 44%;
+	float: left;
+	padding-bottom: calc(56.25% * .44);
+	min-width: 150px;
+	
+
+}
+
+	
+
+
+
+
+
+
+
+
+.video3 {
+	width: 44%;
+	float: left;
+	padding-bottom: calc(56.25% * .44);
+	min-width: 150px;
+	
+
+  
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+@media screen and (min-width: 750px)   {
+	
+	
+	#nav1   {
+		font-size: .88em;
+	}
+	
+	#nav1 ul li a  {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 10px;
+	text-decoration: none;
+	width: 125px;
+	
+}
+	
+	
+	
+	
+	#nav1 > ul > li > a  {
+	padding:10px 15px;
+	width: auto;
+	
+}
+	
+	
+	
+}
+	
